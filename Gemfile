@@ -6,7 +6,7 @@ group :test do
   gem "octokit", "~> 4.21"
   gem "pry", require: false
   gem "rake"
-  gem "rubocop"
+  gem "rubocop", ">= 1.24.0"
   gem "rubocop-performance"
   gem "safe_yaml"
 end
